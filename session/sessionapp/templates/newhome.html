@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SESSIONS</title>
+</head>
+<body>
+
+<form method="post">
+    {% csrf_token %}
+    {{sess}}
+    {{data}}
+    <button type="submit">SUBMIT</button>
+</form>
+</body>
+</html>
